@@ -1,0 +1,127 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.logo-image {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-logo h1 {
+  color: #EF2266;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #465685;
+  font-weight: normal;
+}
+
+.navbar-signin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.signin-sign {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.signin-btn {
+  background-color: #465685;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+  background-color: #F8D7E2;
+}
+
+.language-toggle {
+  position: relative;
+  margin-top: 5px;
+}
+
+.language-toggle button {
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #465685;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 0.9rem;
+}
+
+.language-toggle button:hover {
+  background-color: #465685;
+  color: white;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #465685;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu button {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.dropdown-menu button:hover {
+  background-color: #f0f0f0;
+}
